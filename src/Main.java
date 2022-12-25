@@ -25,12 +25,32 @@ public class Main {
         System.out.println("Много цифр: " + a + b + c + d + e + f + g );
 
         System.out.println("Task3");
-        var lP = 23;
-        var aS = 27;
-        var eA = 30;
-        var paper = 480;
-        var paperEach = paper / (lP + aS + eA);
+        byte lP;
+        lP = 23;
+        byte aS;
+        aS = 27;
+        byte eA;
+        eA = 30;
+        short paper;
+        paper = 480;
+        int pupils;
+        pupils = lP + aS + eA;
+        int paperEach = (paper / pupils);
         System.out.println("На каждого ученика рассчитано " + paperEach + " листов бумаги");
 
+        System.out.println("Task4");
+        byte bottles = 16;
+        int twentyMin;
+        twentyMin = 20 / 2 * bottles;
+        System.out.println("За 20 минут машина произвела " + twentyMin + " штук бутылок");
+        int oneDay;
+        oneDay = 24 * 60 / 2 * bottles;
+        System.out.println("За сутки машина произвела " + oneDay + " штук бутылок");
+        int threeDay;
+        threeDay = 3 * 24 * 60 / 2 * bottles;
+        System.out.println("За 3 дня машина произвела " + threeDay + " штук бутылок");
+        int oneMonth;
+        oneMonth = 30 * 24 * 60 / 2 * bottles;
+        System.out.println("За 3 дня машина произвела " + oneMonth + " штук бутылок");
     }
 }
