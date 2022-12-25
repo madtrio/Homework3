@@ -24,5 +24,13 @@ public class Main {
         byte g = 67;
         System.out.println("Много цифр: " + a + b + c + d + e + f + g );
 
+        System.out.println("Task3");
+        var lP = 23;
+        var aS = 27;
+        var eA = 30;
+        var paper = 480;
+        var paperEach = paper / (lP + aS + eA);
+        System.out.println("На каждого ученика рассчитано " + paperEach + " листов бумаги");
+
     }
 }
