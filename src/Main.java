@@ -77,5 +77,19 @@ public class Main {
         int grPerKg = 1000;
         mixBig = mix / (float)grPerKg;
         System.out.println("Вес завтрака в кг: " + mixBig);
+
+        System.out.println("Task7");
+        short weightLose = 7;
+        short min = 250;
+        short max = 500;
+        int daysmin;
+        int daysmax;
+        int daysaverage;
+        daysmin = weightLose * 1000 / min;
+        System.out.println("Самое медленное " + daysmin + " дней");
+        daysmax = weightLose * 1000 / max;
+        System.out.println("Самое быстрое " + daysmax + " дней");
+        daysaverage = ( daysmin + daysmax ) / 2;
+        System.out.println("В среднем " + daysaverage + " дней");
     }
 }
