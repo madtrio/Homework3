@@ -51,7 +51,7 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + threeDay + " штук бутылок");
         int oneMonth;
         oneMonth = 30 * 24 * 60 / 2 * bottles;
-        System.out.println("За 3 дня машина произвела " + oneMonth + " штук бутылок");
+        System.out.println("За месяц машина произвела " + oneMonth + " штук бутылок");
 
         System.out.println("Task5");
         byte white = 2;
@@ -64,5 +64,18 @@ public class Main {
         whiteUse = rooms * white;
         brownUse = rooms * brown;
         System.out.println("В школе, где " + rooms + " классов, нужно " + whiteUse + " банок белой краски и " + brownUse + " банок коричневой краски");
+
+        System.out.println("Task6");
+        byte weightBan = 80;
+        byte weightMilk = 105;
+        byte weightIce = 100;
+        byte weightEgg = 70;
+        int mix;
+        mix = weightBan * 5 + weightMilk * 2 + weightIce * 2 + weightEgg * 4;
+        System.out.println("Вес завтрака в граммах: " + mix);
+        float mixBig;
+        int grPerKg = 1000;
+        mixBig = mix / (float)grPerKg;
+        System.out.println("Вес завтрака в кг: " + mixBig);
     }
 }
