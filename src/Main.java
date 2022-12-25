@@ -91,5 +91,31 @@ public class Main {
         System.out.println("Самое быстрое " + daysmax + " дней");
         daysaverage = ( daysmin + daysmax ) / 2;
         System.out.println("В среднем " + daysaverage + " дней");
+
+        System.out.println("Task8");
+        int masha = 67760;
+        int denis = 83690;
+        int crist = 76230;
+        double newMasha;
+        double newDenis;
+        double newCrist;
+        newMasha = masha * 1.1;
+        newDenis = denis * 1.1;
+        newCrist = crist * 1.1;
+        int yearMasha;
+        int yearDenis;
+        int yearCrist;
+        yearMasha = masha * 365;
+        yearDenis = denis * 365;
+        yearCrist = crist * 365;
+        double yearnewMasha;
+        double yearnewDenis;
+        double yearnewCrist;
+        yearnewMasha = newMasha * 365 - yearMasha;
+        yearnewDenis = newDenis * 365 - yearDenis;
+        yearnewCrist = newCrist * 365 - yearCrist;
+        System.out.println("Маша теперь получает " + newMasha + " рублей. Годовой доход вырос на " + yearnewMasha + " рублей");
+        System.out.println("Денис теперь получает " + newDenis + " рублей. Годовой доход вырос на " + yearnewDenis + " рублей");
+        System.out.println("Кристина теперь получает " + newCrist + " рублей. Годовой доход вырос на " + yearnewCrist + " рублей");
     }
 }
