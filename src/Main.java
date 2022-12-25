@@ -14,6 +14,15 @@ public class Main {
         System.out.println("Значение переменной fiveFloat с типом float равно " + fiveFloat);
         System.out.println("Значение переменной sixDouble с типом double равно " + sixDouble);
 
+        System.out.println("Task2");
+        float a = 27.12f;
+        long b = 987678965549L;
+        short c = 2786;
+        short d = 569;
+        short e = -159;
+        short f = 27897;
+        byte g = 67;
+        System.out.println("Много цифр: " + a + b + c + d + e + f + g );
 
     }
 }
